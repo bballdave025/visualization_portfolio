@@ -1,3 +1,27 @@
+#@brief   A .gitignore file for my visualization portfolio repo
+#@file    .gitignore
+#@author  David BLACK  GH: @bballdave025
+#@since   2023-03-11
+#
+#  -v- In case this file gets copied to another repo without changing -v-
+#+ -v- this stuff, there will be a reference to the previous repo     -v-
+#@orig_repo  visualization_portfolio
+#@project    visualization_portfolio
+
+
+# Specific directories
+**/__pycache__/
+__pycache__/
+
+**/.ipynb_checkpoints/
+.ipynb_checkpoints/
+
+# None of those backup files
+*~
+
+# The template from GitHub for a Python repo
+## >>>>>>>>>> Start GitHub Python template for .gitignore >>>>>>>>>>
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,3 +151,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+## <<<<<<<<<< End GitHub Python template for .gitignore <<<<<<<<<<
