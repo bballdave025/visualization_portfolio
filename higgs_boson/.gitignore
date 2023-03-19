@@ -18,10 +18,15 @@ __pycache__/
 
 # None of those backup files from Linux
 *~
+**/*~
 
 # None of the Microsoft backup files
 ~$*
+**/~$*
 
+# None of the downloaded CSV files (though they're tiny.)
+*.csv
+**/*.csv
 
 # The template from GitHub for a Python repo
 ## >>>>>>>>>> Start GitHub Python template for .gitignore >>>>>>>>>>
