@@ -1,40 +1,47 @@
 # visualization_portfolio
 A place to put some of my favorite visualizations, whether completely-guided from tutorials or completely-original, or anywhere in between.
 
-## First Visualization - Higgs Boson
+## News! I'm basically only going to have links now.
 
-The first one I'll do here is from my academic background - MS Physics at the University of California at Riverside with research at the **R**eletavistic **H**eavy **I**on **C**ollider - [RHIC](https://www.bnl.gov/rhic/) ([archived](https://web.archive.org/web/20230303001906/https://www.bnl.gov/rhic/)), specifically at a **P**ioneering **H**igh **E**nergy **N**uclear **I**nteraction e**X**periment - [PHENIX](https://www.phenix.bnl.gov/) ([archived](https://web.archive.org/web/20230305034745/https://www.phenix.bnl.gov/)). I was able to be part of the research and discussion - much more discussion than research - concerning the discovery of the Higgs Boson, which happened at [CERN](https://www.home.cern/)'s ([archived](https://web.archive.org/web/20230305014745/https://www.home.cern/)) LHC - in France and Switzerland.
+I'm going to leave the folders as they are. However, each directory will simply house a README.md file with a short description of the visualization, some images with screencaps, and a link to the main repo. Each visualization is going to have its own repo now, see? Here, I'll be making a list of the visualizations with links to the presentation README I described above and to the actual repo with the full visualization.
 
-I'm following a [guide](https://opendata-education.github.io/en_Workshops/exercises/discussion.html) ([archived](https://web.archive.org/web/20230305034951/https://opendata-education.github.io/en_Workshops/exercises/discussion.html)) from the [Helsinki Institute of Physics](https://www.hip.fi/) ([archived](https://web.archive.org/web/20230305040722/https://www.hip.fi/)). The data comes from the **C**ompact **M**uon **S**olenoid - [CMS](https://home.cern/science/experiments/cms) ([archived](https://web.archive.org/web/20230305041155/https://home.cern/science/experiments/cms)) - experiment, which lives way under the ground of France on the **L**arge **H**adron **C**ollider - [https://www.hasthelargehadroncolliderdestroyedtheworldyet.com/](https://www.hasthelargehadroncolliderdestroyedtheworldyet.com/) ([archived](https://web.archive.org/web/20230216163611/https://hasthelargehadroncolliderdestroyedtheworldyet.com/)), oops, the official link is for the [LHC](https://www.home.cern/science/accelerators/large-hadron-collider) ([archived](https://web.archive.org/web/20230305041346/https://www.home.cern/science/accelerators/large-hadron-collider)), though I believe that the code from the former site is legit. Check it out.
 
-```javascript
-<script type="text/javascript">
-if (!(typeof worldHasEnded == "undefined")) {
-document.write("YUP.");
-} else {
-document.write("NOPE.");
-}
-</script>
-```
+## Higgs Boson Discovery Visualization
 
-Anyway, I'll use the data from CMS to visualize something analagous to discovery of the Higgs through the 4-lepton channel. Look at the pictures - they'll be cool. I can also cross-reference the [ATLAS experiment](https://github.com/atlas-outreach-data-tools/notebooks-collection-opendata) ([archived](https://web.archive.org/web/20230305041631/https://github.com/atlas-outreach-data-tools/notebooks-collection-opendata)).
+Using physics data from the actual experiment (CMS), we can show how the discovery was made and even re-create the discovery plot! I'm also going to do some consistency evaluation, looking at the invariant mass of each electron resulting from a collision.
 
-I'll also probably to a mass spectrum from PHENIX to relive the good ol' days. [Their github](https://github.com/PhenixCollaboration) ([archived](https://web.archive.org/web/20230305041735/https://github.com/PhenixCollaboration)) will likely be useful.
+[Presentation (Preview) README](https://github.com/bballdave025/visualization_portfolio/tree/main/higgs_boson#readme)
 
-## Another Visualization - Family History Creek and ArcGIS Project
+[higgs_boson_discovery repo](https://github.com/bballdave025/higgs_boson_visualized/)
 
-There is also forthcoming a family history project that's also a bit of a surveying project. There is a little stream, or creek, that my ancestor used on his farm, in other words, the stream flow through his farm when he first came to the bountiful Utah area, which is not far from the Salt Lake City area. Through an app, I think it's called solo locator, or something like that, I have been able to take pictures with GPS coordinates, compass, orientation, altitude, etc. Etc. I will be using ArcGIS to map out this stream as it flows in the current day. I would also like to get some kind of position versus altitude map, basically a functional representation of the height of the mountain, or really, numerical mesh that's very close to being such a function. If I can't find one, I will use Google maps as I used to use it to plan my bike routes. I will take slices going due east and see how far apart the pixels are. Then I will make other slices also going to East but at the same distance as the you know if x is going east and let's say why is going well. This is not going to do a very good right hand rule but let's just say right is negative. Y that'll do the right handful for height. Then I want the Y pixels put on quote to be the same size as the x pixels, which will make it pretty easy to do a numerical approximation of gradient descent- in the 3D calculus sense rather than the machine learning sense. Then, I want to look at aerial photographs from as far in the past as I can find, or other surveying data, to see where the stream used to flow. I am pretty sure that there have been a lot of changes to the direction that the stream float in since my ancestor used it for his farm. I am hoping that enough information is left after all the houses and roads and other changes to the altitude or the layout of the land. That I can reconstruct where the stream used to flow by finding near to the stream from from to the very top the locally steepest part. So it's standing at any point. Look at the locally steepest part. Go down that part for however long the pixel is or square to two times to pixel is and then look for the steepest part. There is basically what we're happening. That's what water does. Naturally, it's solves these wonderful partial differential equations constrained by a surface and that's what I'm going to try and find to find. You know where the stream would naturally flow. Hopefully the pixels will be saw enough. We will see. And I will come and rewrite this in a way other than dictating it to my speech to text.
+[Main Jupyter Notebook with the Analysis and Visualization](https://github.com/bballdave025/higgs_boson_visualized/blob/main/Higgs_Boson_Discovery_Visualization.ipynb), here as a display version on GitHub.
 
-## Second Visualization - Beginning Linux for the Particle Physicist
+The next link is a very-possibly-still-not-working [MyBinder](https://mybinder.org/) notebook. The MyBinder project allows you to run Jupyter Notebooks online without a command-line server. Basically, you're supposed to be able to go to the link, and the web page will have all the text and code input. You can then run the code, play with it, edit it, etc. It's a great project; I just need to learn better how to get it working.
 
-This is a step-by-step tutorial/guide that I wrote for my friends in graduate school. Many of them had only used physics-specific languages and software that often existed on Windows. I consolidated my notes (back around 2010) and gave them out to help people. 
+You can go to the [Main Jupyter Notebook](https://github.com/bballdave025/higgs_boson_visualized/blob/main/Higgs_Boson_Discovery_Visualization.ipynb) and follow the instructions in **Appendix E** to set up the MyBinder yourself. Hopefully, though, I'll figure out how to get these links working.
 
-I want to write an even-more-accessible version, and I'm going to use Jupyter's C++ thingy (technical term), [xcpp with jupyter-xeus and xeus-cling](https://mybinder.org/v2/gh/jupyter-xeus/xeus-cling/stable) ([archived](https://web.archive.org/web/20230305032801/https://mybinder.org/v2/gh/jupyter-xeus/xeus-cling/stable)). You can start a new notebook by going to [https://mybinder.org/v2/gh/jupyter-xeus/xeus-cling/stable](https://mybinder.org/v2/gh/jupyter-xeus/xeus-cling/stable). It will give you your own workspace, which you can realize by looking at the hex identifier in the URL. Mine is [https://hub.ovh2.mybinder.org/user/jupyter-xeus-xeus-cling-8797mir1/lab](https://hub.ovh2.mybinder.org/user/jupyter-xeus-xeus-cling-8797mir1/lab). I'll be going with C++11 (since that's the version I used when writing the tutorial) and then putting the notebook on [MyBinder](https://mybinder.org/) ([archived](https://web.archive.org/web/20230220182022/https://mybinder.org/)). I'm trying it both online, with the links just stated, and locally, using a tutorial [here](https://www.pranav.ai/cplusplus-for-jupyter) ([archived](https://web.archive.org/web/20230204120234/https://www.pranav.ai/cplusplus-for-jupyter)). I will also share [another good source](https://blog.jupyter.org/interactive-workflows-for-c-with-jupyter-fe9b54227d92) ([archived](https://web.archive.org/web/20230305042400/https://blog.jupyter.org/interactive-workflows-for-c-with-jupyter-fe9b54227d92?gi=01f9d9ebb837)).
 
-Even better link: [https://mybinder.org/v2/gh/jupyter-xeus/xeus-cling/092c31b6c1f7ddb91a6085117c4d9500cc19df11?urlpath=lab%2Ftree%2FBeginning_Linux_for_the_Particle_Physicist.ipynb](https://mybinder.org/v2/gh/jupyter-xeus/xeus-cling/092c31b6c1f7ddb91a6085117c4d9500cc19df11?urlpath=lab%2Ftree%2FBeginning_Linux_for_the_Particle_Physicist.ipynb)
+## English - Germanic or French?
 
-## Further Visualizations
+This is an attempt to pull off a five-hour project.
 
-These will come from other tutorials I do and from my own mind. I'm looking forward to a project that takes a data-driven approach to show that English is a Germanic language with lots of French vocabulary. In conjunction with that, I also want to look at the Enigma cypher, the encoded text (which I think should _not_ follow the patterns of a natural human language like English, German, or French) including some that has been digitized and archived. My plan is to look at simulating the bombe-based approached used by the Poles, British, and Americans related to Bletchley Park. After that, I'll look at modern, Machine Learning based solutions and see what comparisons I can draw.
+[Presentation (Preview) README](https://github.com/bballdave025/visualization_portfolio/tree/main/english_gorf#readme)
 
-Here is (will be) a list of other guided visualizations and datasets I'd like to visualize. Some might go in another repo, but here's a good place to keep track of them. 
+[english_germanic_or_french repo](https://github.com/bballdave025/higgs_boson_visualized/)
+
+Main Jupyter Notebook with the Analysis and Visualization ... coming
+
+
+## Discrete Fourier Transforms - Find Out How Your Equalizer Display Does Its Thing
+
+Discrete Fourier Transforms are very important in Automated Speech Recognition, other NLP applications, and _many_ other fields. This is a presentation I put together for co-workers and friends to help them with the basics. We see how to go from your normal version of a sound wave (pressure vs. time, i.e. time domain) to a spectrum version of a sound wave (energy vs. frequency, i.e. energy domain). This creates peaks and valleys that can be at high or low pitches; that's exactly what you see on your equalizer. We look at artificial waves, then we look at a concert A as played by me on my piano and by my wife on her accordian.
+
+[Presentation (Preview) README](https://github.com/bballdave025/visualization_portfolio/tree/main/english_gorf#readme)
+
+[ repo](https://github.com/bballdave025/higgs_boson_visualized/)
+
+[A PDF Version of the Introductory DFT Information]
+
+[A PNG of Another Application - Seeing if We Have Random Noise or Some Structure]
+
+I now have notebooks using the Wolfram Language - the same one behind Mathematica and Wolfram|Alpha. I highly suggest those tools by the way. For now, I can only show PDFs and PNGs of the unevaluated and evaluated notebooks. At some point, I would like to do the same demonstration using Python in a Jupyter Notebook, or perhaps with some other language.
