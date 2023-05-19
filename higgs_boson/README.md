@@ -15,7 +15,7 @@ Basically, this part of the project involved trying to get a plot looking someth
 <br/>
 <div>
   <img src="./publication_4lepton_spectrum.png"
-       width="300px">
+       width="600px">
 </div>
 <br/>
 
