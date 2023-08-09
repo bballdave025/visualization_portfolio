@@ -21,15 +21,13 @@ The next link is a very-possibly-still-not-working [MyBinder](https://mybinder.o
 You can go to the [Main Jupyter Notebook](https://github.com/bballdave025/higgs_boson_visualized/blob/main/Higgs_Boson_Discovery_Visualization.ipynb) and follow the instructions in **Appendix E** to set up the MyBinder yourself. Hopefully, though, I'll figure out how to get these links working.
 
 
-## English - Germanic or French?
+## Job Hunt Word Frequency
 
-This is an attempt to pull off a five-hour project.
+Some NLP demos and a histogram visualization that can help me to tailor my résumé to job applications. I'll need to get some of the images here!
 
-[Presentation (Preview) README](https://github.com/bballdave025/visualization_portfolio/tree/main/english_gorf#readme)
+[job-app-word-freq repo](https://github.com/bballdave025/job-app-word-freq/)
 
-[english_germanic_or_french repo](https://github.com/bballdave025/higgs_boson_visualized/)
-
-Main Jupyter Notebook with the Analysis and Visualization ... coming
+[Main Jupyter Notebook with the Code and Visualization](https://mybinder.org/v2/gh/bballdave025/job-app-word-freq/main?labpath=A_02nd_NLPPresentationJobHunt_DemoWordFreq.ipynb)
 
 
 ## Discrete Fourier Transforms - Find Out How Your Equalizer Display Does Its Thing
