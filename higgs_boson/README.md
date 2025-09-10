@@ -1,5 +1,7 @@
 # higgs_boson
 
+Note that this project was continued and completed in [its own, separate repo](). This gives you a good chance to compare my original goals with the final presentation, though.
+
 ## Presentation (Preview) README
 
 The goal with this project/visualization was twofold.
